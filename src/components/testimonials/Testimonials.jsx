@@ -43,7 +43,7 @@ const Testimonials = () => {
 
       <Swiper
         className="container testimonials__container mySwiper"
-        pagination={{ clickable:true }}
+        pagination={{ dynamicBullets: true, clickable:true }}
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
